@@ -1,39 +1,82 @@
+body {
+    background-image: url('fondbleu.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
+    box-shadow: 0 0 12px black;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
 #title {
     color: rgb(20, 100, 162);
     background-color: rgb(178, 14, 14);
     text-align: center;
-    margin: 50px;
-    width: 20%;
+    margin: 50px auto;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px black;
 }
 
-a {
+.main-link {
     color: white;
     background-color: rgb(17, 47, 135);
     font-weight: 700;
     text-decoration: none;
-    padding: 8px;
+    padding: 8px 20px;
     border: 1px rgb(255, 153, 0) solid;
     border-radius: 8px;
-    display: block;
-    width: 25%;
-    margin: auto;
+    display: inline-block;
+    margin-top: 15px;
+    transition: 0.3s;
 }
 
+.main-link:hover {
+    background-color: rgb(255, 153, 0);
+    color: black;
+    transform: scale(1.05);
+}
+
+
 .division {
-    background-color: rgb(58, 54, 54);
-    padding: 12px;
+    background-color: rgba(32, 30, 30, 0.85);
+    padding: 20px;
     margin: 24px auto;
-    color: white;
     width: 80%;
     text-align: center;
     border-radius: 8px;
+    box-shadow: 0 0 12px black;
+    transition: 0.3s;
+}
+
+.division:hover {
+    transform: scale(1.02);
+}
+
+
+.img-container {
+    width: 90%;
+    margin: 25px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 15px black;
 }
 
 img {
     width: 100%;
-}
-
-body {
-    background-image: url('fondbleu.jpeg');
+    display: block;
 }
 
