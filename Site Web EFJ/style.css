@@ -1,0 +1,39 @@
+#title {
+    color: rgb(20, 100, 162);
+    background-color: rgb(178, 14, 14);
+    text-align: center;
+    margin: 50px;
+    width: 20%;
+}
+
+a {
+    color: white;
+    background-color: rgb(17, 47, 135);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px rgb(255, 153, 0) solid;
+    border-radius: 8px;
+    display: block;
+    width: 25%;
+    margin: auto;
+}
+
+.division {
+    background-color: rgb(58, 54, 54);
+    padding: 12px;
+    margin: 24px auto;
+    color: white;
+    width: 80%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-image: url('fondbleu.jpeg');
+}
+
